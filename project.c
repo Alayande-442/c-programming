@@ -39,12 +39,26 @@
 int main() {
     int secretNumber = 5;
     int guess;
-    while (guess != secretNumber) {
-        printf("Enter a number: ");
-        scanf("%d", &guess);
+    int guessCount = 0;
+    int guessLimit = 3;
+    int outOfGuess = 0;
+    while (guess != secretNumber && outOfGuess == 0) {
+        if (guessCount < guessLimit) {
+            printf("Enter a number: ");
+            scanf("%d", &guess);
+            guessCount++;
+
+        }else {
+            outOfGuess = 1;
+
+        }
+        
 
     };
-    printf("you guess right");
-
+    if (outOfGuess == 1) {
+        printf("you are out of guess");
+    }else {
+        printf("you guess right");
+    }
     return 0;
 }

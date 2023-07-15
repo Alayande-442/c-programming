@@ -21,6 +21,13 @@ int main() {
         printf("%d\n", y);
         y++;
     }while (y <= 20); 
+
+    // ********* FOR LOOPS *****************
+    for (int i = 0; i < 10; i++)
+    {
+        printf("my name is olaoluwa\n");
+    }
+    
     
 
 
