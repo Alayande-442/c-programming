@@ -57,7 +57,8 @@ int main(void) {
 
     char color[20];
     char pluralNoun[20];
-    char celebrity[20];
+    char celebrityF[20];
+    char celebrityL[20];
     char name[20];
 
     printf("Enter a color\n");
@@ -65,15 +66,16 @@ int main(void) {
     printf("Enter a plural noun\n");
     scanf("%s", pluralNoun);
     printf("Enter a celebrity\n");
-    scanf("%s",celebrity);
-    printf("Enter a name");
+    scanf("%s",celebrityF);
+    scanf("%s",celebrityL);
+    printf("Enter a name\n");
     scanf("%s", name);
 
     
     printf("Roses are %s\n", color);
     printf("%s are blue\n", pluralNoun);
-    printf("i love \n", celebrity);
-    printf("my name is \n", name);
+    printf("i love %s %s\n", celebrityF, celebrityL);
+    printf("my name is %s\n", name);
 
     return 0;
 
