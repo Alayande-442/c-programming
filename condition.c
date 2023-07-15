@@ -18,7 +18,30 @@ int max(int num1, int num2, int num3) {
 }
 
 int main () {
-    printf("%d",max(100,20,200));
+    printf("%d\n",max(100,20,200));
+
+    // ********* SWITCH STATEMENT**********//
+    char grades = 'A';
+    switch (grades) {
+        case 'A':
+            printf("you did great!");
+            break;
+        case 'B':
+            printf("you did alright!");
+            break;
+        case 'C':
+            printf("you did good!");
+            break;
+        case 'D':
+            printf("you did poorly!");
+            break;
+        default:
+        printf("invalid grades");
+
+
+    }
 
     return 0;
 }
+
+
