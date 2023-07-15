@@ -10,7 +10,7 @@ int main() {
     scanf("%lf", &num1);
     printf("Enter an operator:");
     scanf(" %c", &op);
-    printf("Enter a second number");
+    printf("Enter a second number:");
     scanf("%lf", &num2);
 
     if(op == '+') {
