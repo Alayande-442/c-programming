@@ -23,9 +23,11 @@ int main() {
     }while (y <= 20); 
 
     // ********* FOR LOOPS *****************
-    for (int i = 0; i < 10; i++)
+    int luckyNumber[] = {4,8,12,14,5,28};
+    for (int i = 0; i < 6; i++)
     {
-        printf("my name is olaoluwa\n");
+        // printf("my name is olaoluwa\n");
+        printf("%d\n", luckyNumber[i]);
     }
     
     
